@@ -1,0 +1,16 @@
+# Dashboard 1: Ski Resort Slope Density
+
+Build an Application containing a density mapbox graph that displays color intensity based on `Total slopes`. This map should be centered roughly on the US/Canada.
+
+* Add a slider to this application that filters the resorts mapped to those with a Price below the value selected in the slider.
+* Add a radio button that toggles between resorts with night skiing and without night skiing. 
+* Consider making your title dynamic based on the price input
+
+
+# Dashboard 2: Top Resorts by Selected Metric
+
+Build an Application that outputs a bar chart of the top 10 resorts based on the dataframe column users select in a dropdown menu. 
+
+* Add a checklist to allow users to select whether they want to limit results to Canada, the US, or include both countries. 
+* Add an interactive element that allows users to select whether they want to sort the plotted dataframe in ascending or descending order. 
+* Consider making your app title dynamic based on the column selected. 
