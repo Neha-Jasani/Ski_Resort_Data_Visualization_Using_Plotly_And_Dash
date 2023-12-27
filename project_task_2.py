@@ -42,6 +42,9 @@ app.layout = html.Div([
              )
 
 def plot_hist(country, column, ascending):
+
+    if not country and column and ascending:
+        raise PreventUpdate
     
     title = f'Top 10 resorts by {column}'
     
